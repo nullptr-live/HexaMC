@@ -23,14 +23,14 @@
       pkgs = forAllSystems (system: nixpkgs.legacyPackages.${system});
 
       packagesFn = pkgs: rec {
-        polymc = pkgs.libsForQt5.callPackage ./nix { inherit version self libnbtplusplus tomlplusplus; };
-        polymc-qt6 = pkgs.qt6Packages.callPackage ./nix { inherit version self libnbtplusplus tomlplusplus; };
+        hexamc = pkgs.libsForQt5.callPackage ./nix { inherit version self libnbtplusplus tomlplusplus; };
+        hexamc-qt6 = pkgs.qt6Packages.callPackage ./nix { inherit version self libnbtplusplus tomlplusplus; };
       };
     in
     {
       packages = forAllSystems (system:
         let packages = packagesFn pkgs.${system}; in
-        packages // { default = packages.polymc; }
+        packages // { default = packages.hexamc; }
       );
 
       overlay = final: packagesFn;

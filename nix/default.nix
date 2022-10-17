@@ -77,7 +77,7 @@ stdenv.mkDerivation rec {
   # we have to check if the system is NixOS before adding stdenv.cc.cc.lib (#923)
   postInstall = ''
     # xorg.xrandr needed for LWJGL [2.9.2, 3) https://github.com/LWJGL/lwjgl/issues/128
-    wrapQtApp $out/bin/polymc \
+    wrapQtApp $out/bin/hexamc \
       --run '[ -f /etc/NIXOS ] && export LD_LIBRARY_PATH="${stdenv.cc.cc.lib}/lib:$LD_LIBRARY_PATH"' \
       --prefix LD_LIBRARY_PATH : ${gameLibraryPath} \
       --prefix POLYMC_JAVA_PATHS : ${javaPaths} \
