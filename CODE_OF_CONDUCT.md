@@ -1,7 +1,5 @@
-# Contributor Covenant Code of Conduct
 
-This is a modified version of the Contributor Covenant.
-See commit history to see our changes.
+# Contributor Covenant Code of Conduct
 
 ## Our Pledge
 
@@ -32,7 +30,7 @@ Examples of unacceptable behavior include:
 
 * The use of sexualized language or imagery, and sexual attention or advances of
   any kind
-* Trolling (antagonistic, inflammatory, insincere behaviour), insulting or derogatory comments, and personal or political attacks
+* Trolling, insulting or derogatory comments, and personal or political attacks
 * Public or private harassment
 * Publishing others' private information, such as a physical or email address,
   without their explicit permission
@@ -62,9 +60,7 @@ representative at an online or offline event.
 ## Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported to the community leaders responsible for enforcement via email at
-[polymc-enforcement@scrumplex.net](mailto:polymc-enforcement@scrumplex.net) (Email
-address subject to change).
+reported to the community leaders responsible for enforcement at our Discord Server.
 All complaints will be reviewed and investigated promptly and fairly.
 
 All community leaders are obligated to respect the privacy and security of the
@@ -134,3 +130,4 @@ For answers to common questions about this code of conduct, see the FAQ at
 [Mozilla CoC]: https://github.com/mozilla/diversity
 [FAQ]: https://www.contributor-covenant.org/faq
 [translations]: https://www.contributor-covenant.org/translations
+
