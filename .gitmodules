@@ -1,6 +1,6 @@
 [submodule "depends/libnbtplusplus"]
     path = libraries/libnbtplusplus
-    url = https://github.com/PolyMC/libnbtplusplus.git
+    url = https://github.com/nullptr-live/libnbtplusplus.git
 [submodule "libraries/quazip"]
 	path = libraries/quazip
 	url = https://github.com/stachenov/quazip.git
