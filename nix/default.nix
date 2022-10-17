@@ -45,7 +45,7 @@ let
 in
 
 stdenv.mkDerivation rec {
-  pname = "polymc";
+  pname = "hexamc";
   inherit version;
 
   src = lib.cleanSource self;
@@ -85,9 +85,8 @@ stdenv.mkDerivation rec {
   '';
 
   meta = with lib; {
-    homepage = "https://polymc.org/";
-    downloadPage = "https://polymc.org/download/";
-    changelog = "https://github.com/PolyMC/PolyMC/releases";
+    homepage = "https://github.com/nullptr-live/HexaMC";
+    changelog = "https://github.com/nullptr-live/HexaMC/releases";
     description = "A free, open source launcher for Minecraft";
     longDescription = ''
       Allows you to have multiple, separate instances of Minecraft (each with
@@ -96,6 +95,5 @@ stdenv.mkDerivation rec {
     '';
     platforms = platforms.unix;
     license = licenses.gpl3Only;
-    maintainers = with maintainers; [ starcraft66 kloenk ];
   };
 }
