@@ -14,10 +14,12 @@
  * limitations under the License.
  */
 
-package org.polymc;
+package org.hexamc.exception;
 
-public interface Launcher {
+public final class ParseException extends IllegalArgumentException {
 
-    void launch() throws Exception;
+    public ParseException(String message) {
+        super(message);
+    }
 
 }

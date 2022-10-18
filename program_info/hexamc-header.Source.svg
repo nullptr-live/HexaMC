@@ -7,7 +7,7 @@
    version="1.1"
    viewBox="0 0 376.77 135.47"
    id="svg866"
-   sodipodi:docname="PolyMC-Header.Source.svg"
+   sodipodi:docname="HexaMC-Header.Source.svg"
    inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -107,11 +107,11 @@
          id="path1320" />
     </g>
     <g
-       id="polymc-header-text-3"
+       id="hexamc-header-text-3"
        fill="white"
        transform="matrix(6.9306,0,0,6.9306,-695.39957,-649.40511)"
        stroke-width="0.26458"
-       aria-label="PolyMC"
+       aria-label="HexaMC"
        style="fill:#ffffff;fill-opacity:1">
       <text
          xml:space="preserve"
@@ -130,10 +130,10 @@
     </g>
   </g>
   <g
-     id="polymc-header-text-4"
+     id="hexamc-header-text-4"
      fill="white"
      transform="matrix(6.9306,0,0,6.9306,-697.30938,-585.54339)"
      stroke-width="0.26458"
-     aria-label="PolyMC"
+     aria-label="HexaMC"
      style="fill:#ffffff;fill-opacity:1" />
 </svg>

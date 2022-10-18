@@ -50,10 +50,10 @@
  *      limitations under the License.
  */
 
-package org.polymc;
+package org.hexamc;
 
-import org.polymc.exception.ParseException;
-import org.polymc.utils.Parameters;
+import org.hexamc.exception.ParseException;
+import org.hexamc.utils.Parameters;
 
 import java.io.BufferedReader;
 import java.io.IOException;

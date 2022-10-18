@@ -14,12 +14,10 @@
  * limitations under the License.
  */
 
-package org.polymc.exception;
+package org.hexamc;
 
-public final class ParameterNotFoundException extends IllegalArgumentException {
+public interface Launcher {
 
-    public ParameterNotFoundException(String key) {
-        super("Unknown parameter name: " + key);
-    }
+    void launch() throws Exception;
 
 }
