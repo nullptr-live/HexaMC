@@ -13,12 +13,12 @@
  * limitations under the License.
  */
 
-package org.polymc.impl;
+package org.hexamc.impl;
 
-import org.polymc.Launcher;
-import org.polymc.applet.LegacyFrame;
-import org.polymc.utils.Parameters;
-import org.polymc.utils.Utils;
+import org.hexamc.Launcher;
+import org.hexamc.applet.LegacyFrame;
+import org.hexamc.utils.Parameters;
+import org.hexamc.utils.Utils;
 
 import java.applet.Applet;
 import java.io.File;

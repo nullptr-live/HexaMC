@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-3.0-only
 /*
- *  PolyMC - Minecraft Launcher
+ *  HexaMC - Minecraft Launcher
  *  Copyright (C) 2022 Sefa Eyeoglu <contact@scrumplex.net>
  *  Copyright (C) 2022 Lenny McLennington <lenny@sneed.church>
  *
@@ -304,7 +304,7 @@ Application::Application(int &argc, char **argv) : QApplication(argc, argv)
 #ifdef Q_OS_LINUX
         // TODO: this should be removed in a future version
         // TODO: provide a migration path similar to macOS migration
-        QDir bar(FS::PathCombine(QStandardPaths::writableLocation(QStandardPaths::GenericDataLocation), "polymc"));
+        QDir bar(FS::PathCombine(QStandardPaths::writableLocation(QStandardPaths::GenericDataLocation), "hexamc"));
         if (bar.exists()) {
             dataPath = bar.absolutePath();
             adjustedBy = "Legacy data path";
@@ -351,7 +351,7 @@ Application::Application(int &argc, char **argv) : QApplication(argc, argv)
     }
 
     /*
-     * Establish the mechanism for communication with an already running PolyMC that uses the same data path.
+     * Establish the mechanism for communication with an already running HexaMC that uses the same data path.
      * If there is one, tell it what the user actually wanted to do and exit.
      * We want to initialize this before logging to avoid messing with the log of a potential already running copy.
      */
@@ -1157,7 +1157,7 @@ void Application::setIconTheme(const QString& name)
 QIcon Application::getThemedIcon(const QString& name)
 {
     if(name == "logo") {
-        return QIcon(":/org.polymc.PolyMC.svg");
+        return QIcon(":/org.hexamc.HexaMC.svg");
     }
     return QIcon::fromTheme(name);
 }

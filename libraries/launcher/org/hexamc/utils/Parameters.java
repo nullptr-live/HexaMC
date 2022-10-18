@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.polymc.utils;
+package org.hexamc.utils;
 
-import org.polymc.exception.ParameterNotFoundException;
+import org.hexamc.exception.ParameterNotFoundException;
 
 import java.util.ArrayList;
 import java.util.HashMap;
