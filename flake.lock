@@ -21,13 +21,13 @@
       "locked": {
         "lastModified": 1650031308,
         "narHash": "sha256-TvVOjkUobYJD9itQYueELJX3wmecvEdCbJ0FinW2mL4=",
-        "owner": "PolyMC",
+        "owner": "nullptr-live",
         "repo": "libnbtplusplus",
         "rev": "2203af7eeb48c45398139b583615134efd8d407f",
         "type": "github"
       },
       "original": {
-        "owner": "PolyMC",
+        "owner": "nullptr-live",
         "repo": "libnbtplusplus",
         "type": "github"
       }
